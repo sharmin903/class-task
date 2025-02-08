@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+.dashbox{
+    margin: auto;
+    width: 600px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 40px;
+    
+  
+    
+}
+.dashbox-inner{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.dashbox .revenue{
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+padding: 40px;
+border-radius: 5px;
+margin-left: 10px;
+}
+.dashbox .revenue i.fa.fa-money{
+    font-size: 30px;
+    background-color: #D2E6E3;
+    color: #65a78e;
+    padding: 10px;
+    border-radius: 50%;
+
+}
+.dashbox .revenue i.fa.fa-calculator{
+    font-size: 30px;
+    background-color:#70c0ee;
+    color: #2473db;
+    padding: 10px;
+    border-radius: 50%;
+}
+.dashbox .revenue i.fa.fa-commenting-o{
+    font-size: 30px;
+    background-color: #cd92cf;
+    color: #b915be;
+    padding: 10px;
+    border-radius: 50%;
+
+}
+.dashbox .revenue i.fa.fa-arrow-circle-o-up{
+    color: #1ad48d;
+}
+h1.heading{
+    margin-left: -20px;
+
+}
+.dashbox .revenue .total{
+    color: #6f6f6f;
+}
+
+.dashbox .revenue .dtn-group{
+    margin-top: 10px;
+}
+.dashbox .revenue a{
+    border: 1px solid gray;
+    text-decoration: none;
+    color:#6f6f6f ;
+    padding: 4px;
+}
+.dashbox .revenue .money{
+    color: #1ad48d;
+}
+.dashbox .revenue .text{
+    color:#6f6f6f
+}
+.dashbox .revenue i.fa.fa-long-arrow-right{
+   color: black;
+}
